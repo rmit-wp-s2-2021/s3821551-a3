@@ -7,7 +7,7 @@
 
     // API Location: https://developer.here.com/develop/rest-apis
     // API Documentation: https://developer.here.com/documentation
-    const API_KEY = 'FMtE7YH6NNOQcsr_dxfnMVXBqoVFqlWdr6sQqU3rLfQ';
+    const API_KEY = 'MCyalLTN3ktvKgpyE249W82ttRmNX3hMcY7vMz-cRKk';
 
     $url1 = "https://image.maps.ls.hereapi.com/mia/1.6/mapview?w=350&h=350&z=10&co=$country&ci=$city1&apiKey=" . API_KEY;
     $url2 = "https://image.maps.ls.hereapi.com/mia/1.6/mapview?w=350&h=350&z=10&co=$country&ci=$city2&apiKey=" . API_KEY;
