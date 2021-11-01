@@ -8,9 +8,12 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+/* member item width */
 .member {
   width: 33.333%;
 }
+
+/* make a border on top */
 .members .border1 {
   border-top: solid 7px #60d7cc;
 }
@@ -20,6 +23,8 @@ body {
 .members .border3 {
   border-top: solid 7px #f77965;
 }
+
+/* items image size and position */
 .member img {
   display: block;
   margin-top: 2em;
@@ -27,6 +32,8 @@ body {
   margin-left: auto;
   height: 12em;
 }
+
+/* boder under role name and CSS for role font */
 .border1 h3 {
   display: inline-block;
   font-size: medium;
@@ -34,6 +41,7 @@ body {
   padding-bottom: 5px;
   border-bottom: solid 2px #60d7cc;
 }
+/* boder under role name and CSS for role font */
 .border2 h3 {
   display: inline-block;
   font-size: medium;
@@ -41,6 +49,7 @@ body {
   padding-bottom: 5px;
   border-bottom: solid 2px #8cd7a5;
 }
+/* boder under role name and CSS for role font */
 .border3 h3 {
   display: inline-block;
   font-size: medium;
@@ -48,11 +57,15 @@ body {
   padding-bottom: 5px;
   border-bottom: solid 2px #f77965;
 }
+
+/* role description font size */
 .member p {
   color: #aaa;
   width: 80%;
   font-size: 0.8em;
 }
+
+/* SNS icon's color */
 .icon-green {
   color: #60d7cc;
 }
@@ -66,11 +79,13 @@ body {
   color: white;
 }
 
-/* img class */
+/* image CSS for height */
 .wordsonimg {
   position: relative;
   height: 10em;
 }
+
+/* font CSS on image */
 .wordsonimg p {
   color: white;
   font-size: 2em;
@@ -84,32 +99,43 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* image css to be fit */
 .fit-img {
   height: 10em;
   width: 100%;
   object-fit: cover;
 }
-/* navigation ber */
+
+/* navigation ber and delete dot for list*/
 .navigation ul {
   list-style-type: none;
   margin-block-end: 0;
   margin-top: 0;
 }
+
+/* navigation ber to be row*/
 .navigation ul li {
   float: left;
   width: 120px;
   font-size: 1.2em;
   color: white;
 }
+
+/* each items to be block */
 .navigation a {
   color: white;
   display: block;
   padding: 5%;
   text-decoration: none;
 }
+
+/* navigation hover */
 .navigation :hover {
   background-color: #6ac1b7;
 }
+
+/* navigation color */
 .navigation {
   background-color: #517d99;
   height: 3em;
@@ -121,6 +147,8 @@ header {
   margin: 0px;
   padding: 8px;
 }
+
+/* title CSS */
 header h1 {
   color: white;
   margin: 0.3em;
@@ -133,6 +161,7 @@ footer {
   padding: 8px;
   text-align: center;
 }
+/* footer p color*/
 footer p {
   color: white;
 }
